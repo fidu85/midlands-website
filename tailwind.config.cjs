@@ -3,6 +3,9 @@ module.exports = {
   content: ['./src/**/*.{svelte,html,js,ts}'],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-background': "url('/assets/hero_background.jpg')",
+      }
     },
     fontFamily: {
       'sans': ['CooperHewitt Book'],

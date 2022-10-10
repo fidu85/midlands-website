@@ -7,14 +7,6 @@
   import SectionContact from "./section_contact.svelte";
 </script>
 
-<p class="font-cooper-thin">Thin</p>
-<p class="font-cooper-light">Light</p>
-<p class="font-cooper-book">Book</p>
-<p class="font-cooper-medium">Medium</p>
-<p class="font-cooper-semibold">Semibold</p>
-<p class="font-cooper-bold">Bold</p>
-<p class="font-cooper-heavy">Heavy</p>
-
 <SectionHero />
 <SectionBand />
 <SectionConcert />
