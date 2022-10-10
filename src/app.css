@@ -1,3 +1,43 @@
+@font-face {
+  font-family: "FontainRough";
+  src: url('/fonts/fontain/fontaine_rough.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "CooperHewitt Bold";
+  src: url('/fonts/cooper_hewitt/CooperHewitt-Bold.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "CooperHewitt Book";
+  src: url('/fonts/cooper_hewitt/CooperHewitt-Book.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "CooperHewitt Heavy";
+  src: url('/fonts/cooper_hewitt/CooperHewitt-Heavy.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "CooperHewitt Light";
+  src: url('/fonts/cooper_hewitt/CooperHewitt-Light.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "CooperHewitt Medium";
+  src: url('/fonts/cooper_hewitt/CooperHewitt-Medium.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "CooperHewitt Semibold";
+  src: url('/fonts/cooper_hewitt/CooperHewitt-Semibold.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "CooperHewitt Thin";
+  src: url('/fonts/cooper_hewitt/CooperHewitt-Thin.otf') format("opentype");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
