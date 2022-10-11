@@ -2,7 +2,7 @@
 </script>
 
 <section id="promoter" class="relative z-0 bg-midgray">
-  <!-- Spikel-->>
+  <!-- Spikel-->
   <div
     class="before:content-[''] before:block before:w-full before:h-36 before:skew-y-3 before:origin-right before:absolute before:top-0 before:right-0 before:-z-10 before:bg-midgray"
   />

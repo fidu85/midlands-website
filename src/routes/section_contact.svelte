@@ -2,7 +2,7 @@
 </script>
 
 <section id="contact" class="relative z-0 bg-darkgray">
-  <!-- Spikel-->>
+  <!-- Spikel-->
   <div
     class="before:content-[''] before:block before:w-full before:h-36 before:-skew-y-3 before:origin-left before:absolute before:top-0 before:left-0 before:-z-10 before:bg-darkgray"
   />
