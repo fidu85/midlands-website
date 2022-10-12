@@ -5,8 +5,6 @@
 </script>
 
 <section id="hero" class="relative bg-hero-background bg-cover bg-center min-h-screen">
-  Hero
-
   <SectionContent>
     <p class="font-cooper-thin">Thin</p>
     <p class="font-cooper-light">Light</p>

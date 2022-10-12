@@ -7,9 +7,9 @@
 <section id="band" class="relative z-0 bg-darkgray">
   <SectionSlantedTop isTopRight={true} color="darkgray" />
 
-  <SectionTitle color="white">Band</SectionTitle>
-
   <SectionContent>
+    <SectionTitle color="white">Band</SectionTitle>
+
     <div class="h-96 border-2 text-white text-center"><p>Placeholder</p></div>
   </SectionContent>
 </section>
