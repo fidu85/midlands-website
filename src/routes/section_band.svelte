@@ -3,7 +3,7 @@
   import SectionSlantedTop from "../components/layout/section_slanted_top.svelte";
 </script>
 
-<section id="band" class="relative z-0 bg-darkgray text-orange">
+<section id="band" class="relative z-0 bg-darkgray">
   <SectionSlantedTop isTopRight={true} color="darkgray" />
 
   <SectionTitle color="white">Band</SectionTitle>
