@@ -1,16 +1,15 @@
 <script lang="ts">
+  import SectionTitle from "../components/layout/section_title.svelte";
+  import SectionSlantedTop from "../components/layout/section_slanted_top.svelte";
 </script>
 
 <section id="band" class="relative z-0 bg-darkgray text-orange">
-  <!-- Spikel-->
-  <div
-    class="before:content-[''] before:block before:w-full before:h-36 before:-skew-y-3 before:origin-left before:absolute before:top-0 before:left-0 before:-z-10 before:bg-darkgray"
-  />
+  <SectionSlantedTop isTopRight={true} color="darkgray" />
 
-  <div class="font-fontain text-9xl text-center">Band</div>
+  <SectionTitle color="white">Band</SectionTitle>
 
   <div class="w-full pb-24 text-white text-center">
-    <div class="h-96 border-2">Placeholder</div>
+    <div class="h-96 border-2"><p>Placeholder</p></div>
   </div>
 </section>
 

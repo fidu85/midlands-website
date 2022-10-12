@@ -1,10 +1,9 @@
 <script lang="ts">
+  import SectionTitle from "../components/layout/section_title.svelte";
+  import SectionSlantedTop from "../components/layout/section_slanted_top.svelte";
 </script>
 
-<section
-  id="hero"
-  class="relative bg-hero-background bg-cover bg-center min-h-screen"
->
+<section id="hero" class="relative bg-hero-background bg-cover bg-center min-h-screen">
   Hero
 
   <p class="font-cooper-thin">Thin</p>
