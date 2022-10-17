@@ -5,10 +5,10 @@
 </script>
 
 <section id="promoter" class="relative z-0 bg-midgray">
-  <SectionSlantedTop isTopRight={false} color="midgray" />
+  <SectionSlantedTop isTopRight={false} colorName="midgray" />
 
   <SectionContent>
-    <SectionTitle color="orange">Veranstalter</SectionTitle>
+    <SectionTitle colorName="orange">Veranstalter</SectionTitle>
 
     <div class="h-96 border-2 text-white text-center"><p>Placeholder</p></div>
   </SectionContent>

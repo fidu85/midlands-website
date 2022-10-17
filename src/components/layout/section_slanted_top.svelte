@@ -1,10 +1,6 @@
 <script lang="ts">
   export let isTopRight: Boolean;
-  export let color: String;
-
-  function getDirection(): String {
-    return isTopRight ? "left" : "right";
-  }
+  export let colorName: String;
 </script>
 
 <div
@@ -12,13 +8,17 @@
           before:block 
           before:w-full 
           before:h-36 
-          before:{isTopRight ? '-' : ''}skew-y-3
-          before:origin-{getDirection()} 
+          {isTopRight ? 'before:-skew-y-3' : 'before:skew-y-3'}
+          {isTopRight ? 'before:origin-left' : 'before:origin-right'}
           before:absolute 
           before:top-0 
-          before:{getDirection()}-0 
+          {isTopRight ? 'before:left-0' : 'before:right-0'}
           before:-z-10 
-          before:bg-{color}"
+          {colorName=='orange' ? 'before:bg-orange': ''} 
+          {colorName=='white' ? 'before:bg-white': ''} 
+          {colorName=='darkgray' ? 'before:bg-darkgray': ''} 
+          {colorName=='midgray' ? 'before:bg-midgray': ''} 
+          {colorName=='darkblue' ? 'before:bg-darkblue': ''}"
 />
 
 <style>

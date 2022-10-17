@@ -5,10 +5,10 @@
 </script>
 
 <section id="concert" class="relative z-0 bg-orange">
-  <SectionSlantedTop isTopRight={false} color="orange" />
+  <SectionSlantedTop isTopRight={false} colorName="orange" />
 
   <SectionContent>
-    <SectionTitle color="darkblue">Konzerte</SectionTitle>
+    <SectionTitle colorName='darkblue'>Konzerte</SectionTitle>
 
     <div class="h-96 border-2 text-white text-center"><p>Placeholder</p></div>
   </SectionContent>

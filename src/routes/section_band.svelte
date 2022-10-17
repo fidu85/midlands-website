@@ -2,15 +2,27 @@
   import SectionSlantedTop from "../components/layout/section_slanted_top.svelte";
   import SectionTitle from "../components/layout/section_title.svelte";
   import SectionContent from "../components/layout/section_content.svelte";
+
+  import Avatar from "../components/avatar.svelte";
 </script>
 
 <section id="band" class="relative z-0 bg-darkgray">
-  <SectionSlantedTop isTopRight={true} color="darkgray" />
+  <SectionSlantedTop isTopRight={true} colorName="darkgray" />
 
   <SectionContent>
-    <SectionTitle color="white">Band</SectionTitle>
+    <SectionTitle colorName="white">Band</SectionTitle>
 
-    <div class="h-96 border-2 text-white text-center"><p>Placeholder</p></div>
+    <div class="flex justify-around">
+      <Avatar name="Roman Bürki" instrument="Piano & Keyboards" image_src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-1-800x800.jpg" />
+      <Avatar name="Marc Fischer" instrument="Vocals & Guitar" image_src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-2-800x800.jpg" />
+      <Avatar name="Daniel Fink" instrument="Guitar & Backing Vocals" image_src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-3-800x800.jpg" />
+    </div>
+
+    <div class="flex justify-evenly pt-12 px-32">
+      <Avatar name="Markus Günter" instrument="Bass & Backing Vocals" image_src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-1-800x800.jpg" />
+      <Avatar name="Marc Leuenberger" instrument="Drums" image_src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-2-800x800.jpg" />
+    </div>
+    
   </SectionContent>
 </section>
 

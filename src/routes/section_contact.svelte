@@ -5,10 +5,10 @@
 </script>
 
 <section id="contact" class="relative z-0 bg-darkgray">
-  <SectionSlantedTop isTopRight={true} color="darkgray" />
+  <SectionSlantedTop isTopRight={true} colorName="darkgray" />
 
   <SectionContent>
-    <SectionTitle color="white">Kontakt</SectionTitle>
+    <SectionTitle colorName="white">Kontakt</SectionTitle>
 
     <div class="h-96 border-2 text-white text-center"><p>Placeholder</p></div>
   </SectionContent>
