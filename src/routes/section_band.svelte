@@ -2,7 +2,6 @@
   import SectionSlantedTop from "../components/layout/section_slanted_top.svelte";
   import SectionTitle from "../components/layout/section_title.svelte";
   import SectionContent from "../components/layout/section_content.svelte";
-
   import Avatar from "../components/avatar.svelte";
 </script>
 
