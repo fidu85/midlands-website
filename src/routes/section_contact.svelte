@@ -32,7 +32,7 @@
         </a>
 
         <!-- Instagram -->
-        <a href="https://instagram.com" target="_blanket">
+        <a href="https://www.instagram.com/midlands_band" target="_blanket">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 48" width="42px" height="48px" class="fill-white hover:fill-orange h-9 sm:h-12">
             <g clip-path="url(#a)">
               <path
@@ -44,13 +44,13 @@
         </a>
 
         <!-- Youtube -->
-        <a href="https://www.youtube.com" target="_blanket">
+        <!-- <a href="https://www.youtube.com" target="_blanket">
           <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 48" width="54px" height="48px" class="fill-white hover:fill-orange h-9 sm:h-12">
             <path
               d="M51.53 12.133a6.433 6.433 0 0 0-4.526-4.556C43.01 6.5 27 6.5 27 6.5s-16.01 0-20.004 1.077a6.433 6.433 0 0 0-4.526 4.556C1.4 16.152 1.4 24.536 1.4 24.536s0 8.385 1.07 12.404c.589 2.217 2.324 3.89 4.526 4.483C10.99 42.5 27 42.5 27 42.5s16.01 0 20.004-1.077c2.202-.592 3.937-2.266 4.526-4.483 1.07-4.019 1.07-12.404 1.07-12.404s0-8.384-1.07-12.403ZM21.763 32.149V16.924l13.382 7.613-13.382 7.612Z"
             />
           </svg>
-        </a>
+        </a> -->
       </div>
     </div>
 
