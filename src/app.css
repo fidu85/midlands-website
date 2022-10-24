@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: "FontainRough";
   src: url('/fonts/fontain/fontaine_rough.otf') format("opentype");
