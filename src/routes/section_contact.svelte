@@ -55,7 +55,7 @@
     </div>
 
     <!-- COPYRIGHT -->
-    <div class="text-white/50 text-center absolute bottom-14 sm:bottom-28 left-1/2 transform -translate-x-1/2">
+    <div class="text-white/50 w-full text-center absolute bottom-16 sm:bottom-28 left-1/2 transform -translate-x-1/2">
       <p class=" text-xs font-cooper-book tracking-widest">Copyright &copy; {new Date().getFullYear()} MIDLANDS</p>
     </div>
   </SectionContent>
