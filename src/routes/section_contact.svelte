@@ -15,7 +15,7 @@
       <p class="tracking-widest uppercase">Hast Du eine Frage oder möchtest Du uns für einen Anlass buchen?</p>
       <p class="tracking-widest uppercase">Zögere nicht und kontaktiere uns.</p>
 
-      <a href="mailto:info@midlands.ch" class="mt-6 block tracking-wider underline">info@midlands.ch</a>
+      <a href="mailto:info@midlands.ch" class="mt-6 block tracking-wider underline hover:text-orange">info@midlands.ch</a>
     </div>
 
     <!-- FOLGE UNS AUF -->
