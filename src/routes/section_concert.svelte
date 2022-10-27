@@ -27,20 +27,40 @@
   <SectionContent>
     <SectionTitle colorName="darkblue">Konzerte</SectionTitle>
 
-    {#each years as year}
-      <div class="year absolute right-0 text-white font-cooper-heavy opacity-20">{year.label}</div>
-      <div class="relative divide-y divide-white/40 mb-24 last:mb-0">
-        {#each year.concerts as concert}
+    {#each years as year, yearIndex}
+      <div class="relative">
+        <div class="year absolute right-0 top-1/2 transform -translate-y-1/2 -z-10">
+          <span class="inline-block align-text-top text-white font-cooper-heavy opacity-10">{year.label}</span>
+        </div>
+
+        {#each year.concerts as concert, concertIndex}
+          {#if concertIndex != 0}
+            <div class="divider w-1/2 bg-gradient-to-r from-white/40 my-3 sm:my-6 2xl:my-12" />
+          {/if}
           <Concert date={new Date(concert.date)} titel={concert.titel} start={concert.start} link={concert.link} />
         {/each}
       </div>
+
+      {#if yearIndex < years.length - 1}
+        <div class="divider w-full bg-gradient-to-l from-white/40 my-12 sm:my-24 2xl:my-48" />
+      {/if}
     {/each}
   </SectionContent>
 </section>
 
 <style>
-  .year {
-    z-index: -1;
-    font-size: calc(100vw / 3);
+  @media (orientation: landscape) {
+    .year {
+      font-size: 50vh;
+    }
+  }
+  @media (orientation: portrait) {
+    .year {
+      font-size: 40vw;
+    }
+  }
+
+  .divider {
+    height: 2px;
   }
 </style>

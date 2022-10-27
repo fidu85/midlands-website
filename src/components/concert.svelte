@@ -5,7 +5,7 @@
   export let link: string = 'https://www.midlands.ch';
 </script>
 
-<div class="py-3 sm:py-6 sm:px-12">
+<div class="sm:px-12">
   <div class="flex flex-row items-end space-x-6 sm:space-x-12">
     <div class="day text-white font-cooper-heavy opacity-40">{new Intl.DateTimeFormat('de', { day: '2-digit' }).format(date)}</div>
     <div class="text-darkblue font-cooper-bold text-lg leading-6 sm:text-4xl pb-7 sm:pb-12">{titel}</div>
