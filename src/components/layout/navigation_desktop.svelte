@@ -3,7 +3,6 @@
   import { bounceOut, circOut } from 'svelte/easing';
   let currentScroll: number;
   let beforeScroll: number;
-  let viewportHeigth: number;
 
   const deriveDirection = (y: number) => {
     const isScrollDown = beforeScroll == undefined || beforeScroll > y ? true : false;
@@ -15,7 +14,7 @@
   $: showNav = deriveDirection(currentScroll);
 </script>
 
-<svelte:window bind:scrollY={currentScroll} bind:innerHeight={viewportHeigth} />
+<svelte:window bind:scrollY={currentScroll} />
 
 {#if showNav}
   <nav class="fixed w-full z-10 {currentScroll < 96 ? '' : 'backdrop-blur-sm shadow-lg bg-darkgray/20'}" out:slide={{ easing: circOut, duration: 1000 }} in:slide={{ easing: bounceOut, duration: 1000 }}>
