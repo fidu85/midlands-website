@@ -32,12 +32,4 @@
   nav {
     transition: transform 300ms linear;
   }
-
-  .show {
-    transform: translateY(100%);
-  }
-
-  .hide {
-    transform: translateY(0%);
-  }
 </style>
