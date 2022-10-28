@@ -1,16 +1,44 @@
 <script lang="ts">
+  import { slide } from 'svelte/transition';
+  import { bounceOut, circOut } from 'svelte/easing';
+  let currentScroll: number;
+  let beforeScroll: number;
+  let viewportHeigth: number;
+
+  const deriveDirection = (y: number) => {
+    const isScrollDown = beforeScroll == undefined || beforeScroll > y ? true : false;
+    beforeScroll = y;
+
+    return isScrollDown;
+  };
+
+  $: showNav = deriveDirection(currentScroll);
 </script>
 
-<!-- <nav class="fixed w-full z-10 backdrop-blur-sm shadow-lg bg-darkgray/60"> -->
-<nav class="fixed w-full z-10 ">
-  <div class="h-24 max-w-screen-2xl mx-auto px-4 sm:px-6 flex items-center justify-end gap-16 text-white font-cooper-light tracking-widest text-2xl drop-shadow-lg">
-    <a href="/#band" class="hover:translate-y-2 hover:text-orange duration-300">BAND</a>
-    <a href="/#concert" class="hover:translate-y-2 hover:text-orange duration-300">KONZERTE</a>
-    <!-- <a href="/#music" class="hover:translate-y-2 hover:text-orange duration-300">MUSIK</a>
+<svelte:window bind:scrollY={currentScroll} bind:innerHeight={viewportHeigth} />
+
+{#if showNav}
+  <nav class="fixed w-full z-10 {currentScroll < 96 ? '' : 'backdrop-blur-sm shadow-lg bg-darkgray/20'}" out:slide={{ easing: circOut, duration: 1000 }} in:slide={{ easing: bounceOut, duration: 1000 }}>
+    <div class="h-24 max-w-screen-2xl mx-auto px-4 sm:px-6 flex items-center justify-end gap-16 text-white font-cooper-light tracking-widest text-2xl drop-shadow-lg">
+      <a href="/#band" class="hover:translate-y-2 hover:text-orange duration-300">BAND</a>
+      <a href="/#concert" class="hover:translate-y-2 hover:text-orange duration-300">KONZERTE</a>
+      <!-- <a href="/#music" class="hover:translate-y-2 hover:text-orange duration-300">MUSIK</a>
     <a href="/#promoter" class="hover:translate-y-2 hover:text-orange duration-300">VERANSTALTER</a> -->
-    <a href="/#contact" class="hover:translate-y-2 hover:text-orange duration-300">KONTAKT</a>
-  </div>
-</nav>
+      <a href="/#contact" class="hover:translate-y-2 hover:text-orange duration-300">KONTAKT</a>
+    </div>
+  </nav>
+{/if}
 
 <style>
+  nav {
+    transition: transform 300ms linear;
+  }
+
+  .show {
+    transform: translateY(100%);
+  }
+
+  .hide {
+    transform: translateY(0%);
+  }
 </style>
