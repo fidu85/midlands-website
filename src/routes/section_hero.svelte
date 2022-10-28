@@ -4,8 +4,8 @@
 
 <section id="hero" class="relative bg-hero-background bg-center bg-no-repeat min-h-screen portrait:min-h-[calc(80vh)]">
   <SectionContent>
-    <img src="/assets/midlands_logo.svg" alt="midlands logo" class="logo absolute max-w-screen-2xl mx-auto px-4 sm:px-6 w-full top-[calc(20%)] portrait:top-1/3" />
-    <img src="/assets/midlands_band.png" alt="midlands band" class="band absolute max-w-screen-2xl mx-auto px-4 sm:px-6 w-full landscape:w-2/3 portrait:md:w-full landscape:md:w-2/3" />
+    <img src="assets/midlands_logo.svg" alt="midlands logo" class="logo absolute max-w-screen-2xl mx-auto px-4 sm:px-6 w-full top-[calc(20%)] portrait:top-1/3" />
+    <img src="assets/midlands_band.png" alt="midlands band" class="band absolute max-w-screen-2xl mx-auto px-4 sm:px-6 w-full landscape:w-2/3 portrait:md:w-full landscape:md:w-2/3" />
   </SectionContent>
 </section>
 
