@@ -19,6 +19,11 @@
   }
 
   const years: Year[] = concertData as unknown as Year[];
+
+  function sortedConcerts(year: Year): Array<Concert> {
+    let sortedConcerts = year.concerts.sort((objA, objB) => new Date(objA.date).getTime() - new Date(objB.date).getTime());
+    return sortedConcerts;
+  }
 </script>
 
 <section id="concert" class="relative z-0 bg-orange">
@@ -33,7 +38,7 @@
           <span class="inline-block align-text-top text-white font-cooper-heavy opacity-10">{year.label}</span>
         </div>
 
-        {#each year.concerts as concert, concertIndex}
+        {#each sortedConcerts(year) as concert, concertIndex}
           {#if concertIndex != 0}
             <div class="divider w-1/2 bg-gradient-to-r from-white/40 my-3 sm:my-6 2xl:my-12" />
           {/if}
