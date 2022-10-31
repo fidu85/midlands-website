@@ -36,7 +36,7 @@
       <div class="relative">
         <div class="absolute h-full top-0 right-0">
           <div class="sticky top-1/4 -mb-4 sm:-mb-4 md:-mb-16 lg:-mb-20 -z-10">
-            <span class="year text-white/10 font-cooper-heavy border-darkgray leading-none">{year.label}</span>
+            <span class="year text-white/20 font-cooper-heavy border-darkgray leading-none">{year.label}</span>
           </div>
         </div>
 
