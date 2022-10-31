@@ -21,7 +21,7 @@
 
       <div class="flex justify-evenly px-32">
         <Avatar name="Markus Günter" instrument="Bass & Backing Vocals" image_src="assets/kusi.png" />
-        <Avatar name="Marc Leuenberger" instrument="Drums" image_src="assets/maercu_l.png" />
+        <Avatar name="Marc Leuenberger" instrument="Drums & Technics" image_src="assets/maercu_l.png" />
       </div>
     </div>
 
@@ -31,7 +31,7 @@
       <Avatar name="Marc Fischer" instrument="Vocals & Guitar" image_src="assets/maercu_f.png" />
       <Avatar name="Daniel Fink" instrument="Guitar & Backing Vocals" image_src="assets/dani.png" />
       <Avatar name="Markus Günter" instrument="Bass & Backing Vocals" image_src="assets/kusi.png" />
-      <Avatar name="Marc Leuenberger" instrument="Drums" image_src="assets/maercu_l.png" />
+      <Avatar name="Marc Leuenberger" instrument="Drums & Technics" image_src="assets/maercu_l.png" />
     </div>
   </SectionContent>
 </section>
