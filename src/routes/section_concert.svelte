@@ -34,8 +34,10 @@
 
     {#each years as year, yearIndex}
       <div class="relative">
-        <div class="year absolute right-0 top-1/2 transform -translate-y-1/2 -z-10">
-          <span class="inline-block align-text-top text-white font-cooper-heavy opacity-10">{year.label}</span>
+        <div class="absolute h-full top-0 right-0">
+          <div class="sticky top-1/4 -mb-4 sm:-mb-4 md:-mb-16 lg:-mb-20 -z-10">
+            <span class="year text-white/10 font-cooper-heavy border-darkgray leading-none">{year.label}</span>
+          </div>
         </div>
 
         {#each sortedConcerts(year) as concert, concertIndex}
