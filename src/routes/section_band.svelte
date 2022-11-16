@@ -6,8 +6,6 @@
 </script>
 
 <section id="band" class="relative z-0 bg-darkgray">
-  <SectionSlantedTop isTopRight={true} colorName="darkgray" />
-
   <SectionContent>
     <SectionTitle colorName="white">Band</SectionTitle>
 
