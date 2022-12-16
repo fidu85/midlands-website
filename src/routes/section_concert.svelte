@@ -47,6 +47,11 @@
       } else {
         upcomingConcerts.splice(i, 1);
       }
+
+      // if the year is actual year or in future, but we do not have concerts, then delete year
+      if (upcomingConcerts[i] && upcomingConcerts[i].concerts.length == 0) {
+        upcomingConcerts.splice(i, 1);
+      }
     }
 
     // filter past concerts
@@ -92,7 +97,7 @@
 
     <!-- upcoming Concerts-->
     <div>
-      {#each sortYears(upcomingConcerts, true) as year, yearIndex}
+      {#each sortYears(upcomingConcerts, true) as year}
         <div class="relative">
           <div class="absolute h-full top-0 right-0">
             <div class="sticky top-1/4 -mb-4 sm:-mb-4 md:-mb-16 lg:-mb-20 -z-10">
