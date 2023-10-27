@@ -1,5 +1,16 @@
 [
   {
+    "label": 2024,
+    "concerts": [
+      {
+        "date": "2024-03-22T00:00:00.000Z",
+        "titel": "Soho Club, Wangen an der Aare",
+        "start": "Beginn 20:00 Uhr",
+        "link": "https://www.soho-kosmos.ch/club/infos/"
+      }
+    ]
+  },
+  {
     "label": 2022,
     "concerts": [
       {
