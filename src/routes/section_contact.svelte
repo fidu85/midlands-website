@@ -5,7 +5,7 @@
 </script>
 
 <section id="contact" class="relative z-0 bg-darkgray">
-  <SectionSlantedTop isTopRight={true} colorName="darkgray" />
+  <SectionSlantedTop isTopRight={false} colorName="darkgray" />
 
   <SectionContent>
     <SectionTitle colorName="white">Kontakt</SectionTitle>

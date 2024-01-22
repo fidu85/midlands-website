@@ -23,14 +23,14 @@
       </svg>
       <span class="pt-2">KONZERTE</span>
     </a>
-    <!-- <a href="/#music" class="flex flex-col items-center self-center">
+    <a href="/#music" class="flex flex-col items-center self-center">
       <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
         <path class="stroke-white fill-white/0" d="M20 14V3L9 5v11" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
         <path class="stroke-white fill-white/0" d="M17 19h1a2 2 0 0 0 2-2v-3h-3a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2ZM6 21h1a2 2 0 0 0 2-2v-3H6a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
       </svg>
       <span class="pt-2">MUSIK</span>
     </a>
-    <a href="/#promoter" class="flex flex-col items-center self-center">
+    <!-- <a href="/#promoter" class="flex flex-col items-center self-center">
       <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
         <path
           class="stroke-white fill-white"

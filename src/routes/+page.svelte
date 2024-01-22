@@ -10,6 +10,6 @@
 <SectionHero />
 <SectionBand />
 <SectionConcert />
-<!-- <SectionMusic />
-<SectionPromoter /> -->
+<SectionMusic />
+<!-- <SectionPromoter /> -->
 <SectionContact />
