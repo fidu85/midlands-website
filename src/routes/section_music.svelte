@@ -21,7 +21,6 @@
     </div>
   </SectionContent>
 </section>
-¬
 
 <style>
   /* workaround for 100% width of embeded fb video https://stackoverflow.com/questions/53870037/how-to-set-a-facebook-embed-video-to-100-width */
