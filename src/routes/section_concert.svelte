@@ -56,14 +56,10 @@
 
     // filter past concerts
     for (let i = pastConcerts.length - 1; i >= 0; i--) {
-      if (pastConcerts[i].label < now.getFullYear()) {
-        for (let y = pastConcerts[i].concerts.length - 1; y >= 0; y--) {
-          if (new Date(pastConcerts[i].concerts[y].date).getTime() >= now.getTime()) {
-            pastConcerts[i].concerts.splice(y, 1);
-          }
+      for (let y = pastConcerts[i].concerts.length - 1; y >= 0; y--) {
+        if (new Date(pastConcerts[i].concerts[y].date).getTime() >= now.getTime()) {
+          pastConcerts[i].concerts.splice(y, 1);
         }
-      } else {
-        pastConcerts.splice(i, 1);
       }
     }
   });
