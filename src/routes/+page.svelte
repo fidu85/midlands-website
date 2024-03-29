@@ -11,5 +11,5 @@
 <SectionBand />
 <SectionConcert />
 <SectionMusic />
-<!-- <SectionPromoter /> -->
+<SectionPromoter />
 <SectionContact />

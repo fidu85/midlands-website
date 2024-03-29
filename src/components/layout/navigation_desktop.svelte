@@ -22,7 +22,7 @@
       <a href="/#band" class="hover:translate-y-2 hover:text-orange duration-300" in:slide={{ easing: elasticOut, duration: 1000, delay: 300 }}>BAND</a>
       <a href="/#concert" class="hover:translate-y-2 hover:text-orange duration-300" in:slide={{ easing: elasticOut, duration: 1000, delay: 500 }}>KONZERTE</a>
       <a href="/#music" class="hover:translate-y-2 hover:text-orange duration-300" in:slide={{ easing: elasticOut, duration: 1000, delay: 700 }}>MUSIK</a>
-      <!-- <a href="/#promoter" class="hover:translate-y-2 hover:text-orange duration-300">VERANSTALTER</a> -->
+      <a href="/#promoter" class="hover:translate-y-2 hover:text-orange duration-300">VERANSTALTER</a>
       <a href="/#contact" class="hover:translate-y-2 hover:text-orange duration-300" in:slide={{ easing: elasticOut, duration: 1000, delay: 900 }}>KONTAKT</a>
     </div>
   </nav>

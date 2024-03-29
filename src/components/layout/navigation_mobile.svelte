@@ -30,7 +30,7 @@
       </svg>
       <span class="pt-2">MUSIK</span>
     </a>
-    <!-- <a href="/#promoter" class="flex flex-col items-center self-center">
+    <a href="/#promoter" class="flex flex-col items-center self-center">
       <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
         <path
           class="stroke-white fill-white"
@@ -39,7 +39,7 @@
         <path class="stroke-white fill-white" d="M3 20.185a1.374 1.374 0 0 1-.5-1.06V1.875C2.5 1.118 3.118.5 3.875.5H12.5c.154 0 .505.026 1.262.5H3.875A.881.881 0 0 0 3 1.875v18.31Z" />
       </svg>
       <span class="pt-2">VERANSTALTER</span>
-    </a> -->
+    </a>
     <a href="/#contact" class="flex flex-col items-center self-center">
       <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
         <path
