@@ -89,7 +89,7 @@
               <p class="text-white text-center text-xl sm:text-md tracking-widest uppercase m-6">Bandfotos & Logos</p>
             </svg>
 
-            <p class="text-white text-center text-lg sm:text-md tracking-widest uppercase mt-6 mx-6">Logos & Bandfotos</p>
+            <p class="font-cooper-medium text-white text-center text-base sm:text-xl md:text-lg lg:text-xl tracking-widest uppercase mt-6 mx-8">Logos & Bandfotos</p>
           </div>
 
           <span class="absolute -z-10 h-52 sm:h-60 md:h-48 lg:h-60 w-52 sm:w-60 md:w-48 lg:w-60 rounded-3xl rotate-3 bg-orange/75 -translate-y-4" />
@@ -163,7 +163,7 @@
               </g>
             </svg>
 
-            <p class="text-white text-center text-lg sm:text-md tracking-widest uppercase mt-6 mx-4">Stageplan & Techrider</p>
+            <p class="font-cooper-medium text-white text-center text-base sm:text-xl md:text-lg lg:text-xl tracking-widest uppercase mt-6 mx-4">Stageplan & Techrider</p>
           </div>
 
           <span class="absolute -z-10 h-52 sm:h-60 md:h-48 lg:h-60 w-52 sm:w-60 md:w-48 lg:w-60 rounded-3xl rotate-3 bg-orange/75 -translate-y-4" />
