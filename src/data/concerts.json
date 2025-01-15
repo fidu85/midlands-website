@@ -1,5 +1,22 @@
 [
   {
+    "label": 2025,
+    "concerts": [
+      {
+        "date": "2025-07-12T00:00:00.000Z",
+        "titel": "Openair Seewagen, Sursee",
+        "start": "Privatanlass",
+        "link": "https://www.openair-seewagen.ch/"
+      },
+      {
+        "date": "2025-12-20T00:00:00.000Z",
+        "titel": "Egelsee Treff Bern",
+        "start": "Konzertbeginn wird noch bekannt gegeben",
+        "link": "http://www.egelseetreff.ch/"
+      }
+    ]
+  },
+  {
     "label": 2024,
     "concerts": [
       {

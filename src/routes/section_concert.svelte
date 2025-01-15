@@ -59,6 +59,11 @@
       for (let y = pastConcerts[i].concerts.length - 1; y >= 0; y--) {
         if (new Date(pastConcerts[i].concerts[y].date).getTime() >= now.getTime()) {
           pastConcerts[i].concerts.splice(y, 1);
+
+          // check if we have removed every concert in a year, then we can also remove the whole year from the list
+          if (pastConcerts[i].concerts.length == 0) {
+            pastConcerts.splice(i, 1);
+          }
         }
       }
     }
