@@ -1,5 +1,16 @@
 [
   {
+    "label": 2026,
+    "concerts": [
+      {
+        "date": "2026-02-06T00:00:00.000Z",
+        "titel": "Soho Club, Wangen an der Aare",
+        "start": "Beginn ab 20:00 Uhr",
+        "link": "https://www.soho-kosmos.ch/club/"
+      }
+    ]
+  },
+  {
     "label": 2025,
     "concerts": [
       {
@@ -11,7 +22,7 @@
       {
         "date": "2025-12-20T00:00:00.000Z",
         "titel": "Egelsee Treff Bern",
-        "start": "Konzertbeginn wird noch bekannt gegeben",
+        "start": "Beginn ab 21:00 Uhr",
         "link": "http://www.egelseetreff.ch/"
       }
     ]
