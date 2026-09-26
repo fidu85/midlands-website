@@ -21,20 +21,20 @@
 
   <!-- BAND -->
   <div class="absolute inset-0 w-full h-full -z-10">
-    <img src="/assets/midlands_band.png" alt="midlands band" class="band fixed portrait:absolute left-0 right-0 bottom-0 portrait:bottom-72 portrait:sm:bottom-1/3 portrait:lg:bottom-1/4 max-w-screen-2xl w-full mx-auto px-4 sm:px-6 landscape:w-[calc(70%)] portrait:md:w-full " />
+    <img src="/assets/midlands_band_v2.webp" alt="midlands band" class="band fixed portrait:absolute left-0 right-0 bottom-0 portrait:bottom-72 portrait:sm:bottom-1/3 portrait:lg:bottom-1/4 max-w-screen-2xl w-full mx-auto px-4 sm:px-6 landscape:w-[calc(70%)] portrait:md:w-full" />
   </div>
 
   <!-- SUBTEXT -->
   <div class="relative -mt-64 landscape:sm:-mt-32 landscape:md:-mt-48 landscape:lg:-mt-64 pb-24 md:pb-36">
     <div class="max-w-screen-2xl mx-auto px-4 sm:px-6">
-      <div class="flex flex-col gap-6 h-1/2 ">
+      <div class="flex flex-col gap-6 h-1/2">
         <span class="font-fontain text-5xl md:text-9xl landscape:sm:text-6xl landscape:lg:text-9xl text-center text-orange tracking-widest {currentScroll >= viewportHeight / 8 ? 'transition duration-500 translate-y-0 opacity-100' : 'transition duration-500 -translate-y-28 opacity-0'}">
           <p>Rockmusik</p>
           <p>Mit Emotion und Leidenschaft</p>
         </span>
 
         <span class="font-cooper-thin text-lg md:text-4xl landscape:sm:text-2xl landscape:lg:text-4xl text-center text-white {currentScroll >= viewportHeight / 8 ? 'transition duration-500 translate-y-0 opacity-100' : 'transition duration-500 translate-y-28 opacity-0'}">
-          <p>Erlesene Songs neu interpretiert und auf eigene Art verpackt, das ist die Musik von Midlands. Lassen Sie sich mitreisen und geniessen Sie ein einmaliges Hörerlebnis.</p>
+          <p>Erlesene Songs neu interpretiert und auf eigene Art verpackt treffen auf Eigenkompositionen. Das ist die Musik von Midlands. Lassen Sie sich mitreissen und geniessen Sie ein einmaliges Hörerlebnis.</p>
         </span>
       </div>
     </div>
