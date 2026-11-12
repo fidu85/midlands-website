@@ -34,7 +34,7 @@
         </span>
 
         <span class="font-cooper-thin text-lg md:text-4xl landscape:sm:text-2xl landscape:lg:text-4xl text-center text-white {currentScroll >= viewportHeight / 8 ? 'transition duration-500 translate-y-0 opacity-100' : 'transition duration-500 translate-y-28 opacity-0'}">
-          <p>Erlesene Songs neu interpretiert und auf eigene Art verpackt treffen auf Eigenkompositionen. Das ist die Musik von Midlands. Lassen Sie sich mitreissen und geniessen Sie ein einmaliges Hörerlebnis.</p>
+          <p>Erlesene Songs neu interpretiert und auf eigene Art verpackt treffen auf Eigenkompositionen. Das ist die Musik von Midlands. Lass Dich mitreissen und geniesse ein einmaliges Hörerlebnis.</p>
         </span>
       </div>
     </div>

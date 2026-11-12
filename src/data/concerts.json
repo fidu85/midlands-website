@@ -1,5 +1,27 @@
 [
   {
+    "label": 2027,
+    "concerts": [
+      {
+        "date": "2027-09-11T00:00:00.000Z",
+        "titel": "Hochzeit",
+        "start": "Privatanlass"
+      },
+      {
+        "date": "2027-08-14T00:00:00.000Z",
+        "titel": "Gewerbeverein Bätterkinden",
+        "start": "Zeitpunkt des Konzertes wird noch bekannt gegeben.",
+        "link": "https://gewerbeverein-baetterkinden.ch/gewerbe_event/information/site/id-8598-theme-8598"
+      },
+      {
+        "date": "2027-02-05T00:00:00.000Z",
+        "titel": "Mr. Pickwick Pub, Bern",
+        "start": "Beginn ab ca. 19:00 Uhr",
+        "link": "https://www.pickwick.ch/locations/mr-pickwick-pub-bern/"
+      }
+    ]
+  },
+  {
     "label": 2026,
     "concerts": [
       {
